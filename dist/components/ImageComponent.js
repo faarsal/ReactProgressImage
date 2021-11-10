@@ -96,7 +96,8 @@ let ImageLoader = props => {
   }, []);
   if (state.downloadProgress === 100) return /*#__PURE__*/_react.default.createElement("img", {
     src: state.responseImage,
-    alt: props.alt
+    alt: props.alt,
+    style: props.style
   });
   if (props.hideLoading !== true) return /*#__PURE__*/_react.default.createElement("div", null, "Loading Image ".concat(state.downloadProgress, "%"));
   return /*#__PURE__*/_react.default.createElement("div", null);

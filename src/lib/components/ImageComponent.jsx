@@ -60,7 +60,7 @@ let ImageLoader = (props) => {
     DownloadImage();
   },[]);
 
-  if (state.downloadProgress === 100) return <img src={state.responseImage} alt={props.alt} />;
+  if (state.downloadProgress === 100) return <img src={state.responseImage} alt={props.alt} style={props.style}/>;
   if (props.hideLoading!==true)
     return (
       <div>{`Loading Image ${state.downloadProgress}%`}</div>

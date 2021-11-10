@@ -1,6 +1,6 @@
 {
   "name": "react-progress-image",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": false,
   "description": "react-progress-image is an `<img>` tag replacement for react supporting  displaying a loading spinner or bar in case the large image takes a lot of time to load. This library supports displaying custom loading bar or spinners.",
   "author": "faarsal",
