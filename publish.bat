@@ -1,0 +1,1 @@
+npx babel lib --out-dir dist --copy-files && npm publish
